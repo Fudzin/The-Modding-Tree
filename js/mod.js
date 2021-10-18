@@ -1,7 +1,7 @@
 let modInfo = {
-	name: "The ??? Tree",
-	id: "mymod",
-	author: "nobody",
+	name: "The Aleph Tree",
+	id: "Aleph",
+	author: "Fudzin",
 	pointsName: "points",
 	modFiles: ["layers.js", "tree.js"],
 
@@ -13,14 +13,14 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
-	name: "Literally nothing",
+	num: "0.1",
+	name: "in the beginning",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
 	<h3>v0.0</h3><br>
-		- Added things.<br>
-		- Added stuff.`
+		- Added first layer.<br>
+		- Added first points.`
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
 
@@ -56,7 +56,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	return player.points.gte(new Decimal("e280000000"))
+	return player.points.gte(new Decimal("e2800000000000"))
 }
 
 
