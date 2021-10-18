@@ -26,8 +26,10 @@ addLayer("p", {
     ],
     layerShown(){return true},
     upgrades: {
-        title: "You got to start somewhere..",
-        description: "Double your point gain.",
-        cost: new Decimal(1),
+        11: {
+            title: "You got to start somewhere..",
+            description: "Double your point gain.",
+            cost: new Decimal(1),
+        },
     },
 })
